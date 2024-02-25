@@ -1,1 +1,64 @@
+# LAPORAN JOBSHEET 1
+
+Fatriya Ibnu Ash shidiqqi <br>
+2F / 13 <br>
+2241720138 <br>
+
+## ROUTING
+
+### BASIC ROUTING
+
+1. Menanggil Route hello untuk menampilkan pesan 'Hello World' <img src=![alt text](<Screenshot 2024-02-25 130432-2.png>)> <br>
+2. Menanggil Route world untuk menampilkan pesan 'World' <img src=![alt text](<Screenshot 2024-02-25 130658-1.png>) <br>
+3. Memanggil Route welcome untuk menampilkan pesan 'Selamat Datang' <img src=![alt text](<Screenshot 2024-02-25 132640-1.png>)> <br>
+4. Memanggil Route about untuk menampilkan Nim dan Nama saya <img src=![alt text](<Screenshot 2024-02-25 132800-1.png>)> <br>
+
+### ROUTE PARAMETERS
+
+1. Menampilkan route user/{name} dengan parameter $name <img src=![alt text](<Screenshot 2024-02-25 131551-1.png>)> <br>
+2. Halaman tidak ada yang ditampilkan 404 not found karena tidak ada parameternya
+3. <img src=![alt text](<Screenshot 2024-02-25 133234-1.png>)> <br>
+
+### OPTIONAL PARAMETERS
+
+1. Parameter $nama tidak memiliki nilai sehingga tidak ditampilkan
+2. Parameter $nama dipanggil <img src=![alt text](<Screenshot 2024-02-25 131824-1.png>)> <br>
+3. Parameter $name memiliki nilai 'John'
+
+## Controller
+
+### MEMBUAT CONTROLLER
+
+1. Menampilkan Route hello dari controller WelcomeController
+   <img src=![alt text](<Screenshot 2024-02-25 130432-1.png>)> <br>
+2. Menampilkan Route welcome, about, dan articles dari controller PageController
+   <img src=![alt text](<Screenshot 2024-02-25 132640-1-1.png>)> <br>
+   <img src=![alt text](<Screenshot 2024-02-25 132800-2.png>)> <br>
+   <img src=![alt text](<Screenshot 2024-02-25 133234-1-1.png>)> <br>
+
+## VIEW
+
+### MEMBUAT VIEW
+
+1. Route akan memanggil View
+   yang menampilkan nama sesuai dengan nama yang ada di file blade.php
+2. Route akan memanggil View
+   yang menampilkan nama sesuai dengan nama yang ada di file blade.php yang terletak di direktori view/blog/hello.blade.php
+
+### MENAMPILKAN VIEW DARI CONTROLLER
+
+1. Route memanggil controller untuk menampilkan view
+
+### MENERUSKAN DATA KE VIEW
+
+1. Route menampilkan fungsi greeting dari controller yang memiliki dua parameter
+
+## SOAL PRAKTIKUM
+
+- Halaman Home <img src=home.png> <br>
+- Halaman Products (Food & Beverages) <img src=fnb.png> <br>
+- Halaman Products (Beauty & Health) <img src=beauty.png> <br>
+- Halaman Products (Home Care) <img src=homecare.png> <br>
+- Halaman Products (Baby & Kid) <img src=babykid.png> <br>
+- Halaman User <img src=pengguna.png> <br>
 
