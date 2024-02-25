@@ -21,3 +21,7 @@ Route::get('/world', function () {
 Route::get('/user/{name}', function ($jantra) {
     return 'Nama saya ' . $jantra;
 });
+
+Route::get('/posts/{post}/comments/{comment}', function ($postId, $commentId) {
+    return 'Pos ke-' . $postId . " Komentar ke-: " . $commentId;
+});
